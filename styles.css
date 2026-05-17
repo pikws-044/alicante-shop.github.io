@@ -17,21 +17,23 @@ header{
 }
 nav{
     display: grid;
-    height: 10vh;
-    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    grid-template-columns: 10vh 1fr;
     justify-content: flex-start;
     grid-column: span 3;
 }
 .logo{
-    height: 10vh;
+   width: clamp(40px,10vh,60px);
     background-color: aliceblue;
     border-radius: 20px;
+    transition: all 1s;
 }
 .menu{
     display: flex;
     gap: 10px;
     height: 10vh;
-    justify-self: flex-end;
+    grid-template-columns: repeat(auto-fit,minmax(100px,5vw));
+
 }
 .btn{
     display: flex;
