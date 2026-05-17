@@ -1,0 +1,19 @@
+.sales{
+    width: 100vw;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    row-gap: 5vh;
+    column-gap:  10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.fruits{
+    background-color: rgb(222, 124, 124);
+    width: 25vw;
+    padding: 2vw;
+    border-radius: 15px;
+}
+.fruits img{
+    width: 100%;
+}
